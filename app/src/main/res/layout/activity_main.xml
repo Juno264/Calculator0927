@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D351E"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background_white_frame"
+        android:fontFamily="sans-serif-light"
+        android:gravity="end"
+        android:padding="16dp"
+        android:text="0.0"
+        android:textColor="#AEF23D"
+        android:textSize="52sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pai"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="π"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/jijyou"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="x²"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/kaijyou"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="x!"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bit"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="bit"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numberButton7"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="7"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/numberButton8"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="8"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/numberButton9"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="9"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/multiplyButton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:backgroundTint="#AEF23D"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:text="✕"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numberButton4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="4"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/numberButton5"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="5"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/numberButton6"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="6"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/minusButton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:backgroundTint="#AEF23D"
+            android:fontFamily="sans-serif-light"
+            android:text="－"
+            android:textSize="38sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numberButton1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="1"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/numberButton2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="2"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/numberButton3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="3"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/plusButton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:backgroundTint="#AEF23D"
+            android:fontFamily="sans-serif-light"
+            android:text="＋"
+            android:textSize="38sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numberButton0"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center|start"
+            android:paddingLeft="23dp"
+            android:paddingTop="4dp"
+            android:text="0"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/ten"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="sans-serif-light"
+            android:text="."
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:backgroundTint="#AEF23D"
+            android:fontFamily="sans-serif-light"
+            android:text="AC"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/equalButton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_button_circle"
+            android:backgroundTint="#AEF23D"
+            android:fontFamily="sans-serif-light"
+            android:text="＝"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+</LinearLayout>
